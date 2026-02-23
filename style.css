@@ -1,0 +1,421 @@
+* {
+  box-sizing: border-box;
+}
+
+::placeholder {
+  font-size: 12px;
+  color: #6b6d70 !important;
+}
+
+.validate {
+  color: red;
+  font-size: 12px;
+}
+
+.navbar {
+  background-color: white !important;
+}
+
+nav .img-container {
+  width: 50px;
+}
+
+nav h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+nav h1 span {
+  color: #7f22fe;
+}
+
+nav .nav-buttons,
+nav .nav-text {
+  display: none;
+}
+
+nav .navbar-brand i {
+  background-image: linear-gradient(to right, #7a27fd, #5537f7);
+  color: white;
+  width: fit-content;
+  font-size: 24px;
+}
+
+nav .navbar-brand p {
+  font-size: 12px;
+  color: oklch(0.551 0.027 264.364);
+  font-weight: 500;
+}
+
+.title {
+  line-height: 5px;
+}
+
+nav .nav-btn {
+  background-image: linear-gradient(to right, #7a27fd, #5537f7);
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+nav .addBtnLg {
+  display: none;
+}
+
+.modal .modal-body .icon i {
+  background-image: linear-gradient(to right, #287bff, #1961fc);
+  width: fit-content;
+  font-size: 1.5rem;
+}
+
+#home {
+  background-color: #f8fafc;
+  height: 100vh;
+}
+
+#home .insights .icon,
+#home .summary .favourite .title .icon,
+#home .summary .emergency .title .icon {
+  width: fit-content;
+}
+
+#home .insights .users {
+  background-image: linear-gradient(to right, #287bff, #1961fc);
+}
+
+#home .insights .star,
+#home .summary .favourite .title .star {
+  background-image: linear-gradient(to right, #ffb100, #ff7100);
+}
+
+#home .insights .heart,
+#home .summary .emergency .title .heart {
+  background-image: linear-gradient(to right, #fd1c51, #ea001a);
+}
+
+#home .insights .card {
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+#home .insights .card .insights-content span {
+  font-weight: 700;
+}
+
+#home .insights .card .insights-content .first-span {
+  color: oklch(0.551 0.027 264.364);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#home h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#home .content p {
+  font-size: 12px;
+  font-weight: 500;
+  color: oklch(0.551 0.027 264.364);
+}
+
+#home .card .title .name {
+  background-color: #00b381;
+  width: 45px;
+  height: 45px;
+  position: relative;
+}
+
+#home .card .title .name span {
+  color: #f8fafc;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+#home .card .title .details h3 {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 15px;
+}
+
+#home .card .title .details h4 {
+  color: oklch(0.551 0.027 264.364);
+  font-size: 0.6875rem;
+}
+
+#home .card .title .details h4 i {
+  color: #1961fc;
+  background-color: #ced5e0;
+  width: fit-content;
+  font-size: 10px;
+}
+
+#home .card .title .favorite {
+  background-color: #ffb900;
+  width: fit-content;
+  font-size: 6px;
+  border: 1px solid white;
+  position: absolute;
+  bottom: 70%;
+  right: -12%;
+}
+
+#home .card .title .emergency {
+  background-color: #ff2056;
+  width: fit-content;
+  font-size: 6px;
+  border: 1px solid white;
+  position: absolute;
+  top: 70%;
+  right: -12%;
+}
+
+#home .card .content .email i,
+#home .card .content .location i {
+  font-size: 8px;
+  width: 25px;
+  height: 25px;
+  background-color: #ede9fe;
+}
+
+#home .card .content .location i {
+  background-color: #d0fae5;
+}
+
+#home .card .content .feature .group {
+  width: fit-content;
+  color: #00b381;
+  background-color: #d0fae5;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+#home .card .content .feature .emergency {
+  width: fit-content;
+  color: #ee002a;
+  background-color: #fef2f2;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+#home .card .footer button {
+  border: none;
+  border-radius: 5px;
+  font-size: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+#home .card .footer .phone {
+  background-color: #d3f1e9;
+  color: #009966;
+}
+
+#home .card .footer .msg {
+  background-color: #ede9fe;
+  color: #7f22fe;
+}
+
+#home .card .footer .star {
+  background-color: #fef3c6;
+  color: #ffb900;
+}
+
+#home .card .footer .fav {
+  background-color: #fef2f2;
+  color: #ff2056;
+}
+
+#home .card .footer .edit,
+#home .card .footer .delete {
+  background-color: white;
+  color: #6b6d70;
+}
+
+#home .card .footer .delete:hover {
+  background-color: #fef2f2;
+  color: #ff2056;
+}
+
+#home .card .footer .edit:hover {
+  background-color: #eef2ff;
+  color: #1861fd;
+}
+
+#home .summary .favourite .title .star,
+#home .summary .emergency .title .heart {
+  font-size: 10px;
+}
+
+#home .summary .favourite .title span,
+#home .summary .emergency .title span {
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#home .summary .favourite .title p,
+#home .summary .emergency .title p {
+  font-size: 9px;
+}
+
+#home .summary .favourite .title,
+#home .summary .emergency .title {
+  background-color: #fff7ec;
+}
+
+.summary .favourite .body,
+.summary .emergency .body {
+  background-color: white;
+}
+
+.summary .favourite .body .contact,
+.summary .emergency .body .contact {
+  background-color: #f5fcf9;
+}
+
+.summary .favourite .body .contact:hover {
+  background-color: #fffbeb;
+}
+
+.summary .favourite .body .name,
+.summary .emergency .body .name {
+  background-color: #00b381;
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+
+.summary .favourite .body .details h5,
+.summary .emergency .body .details h5 {
+  font-size: 10px;
+}
+
+.summary .favourite .body .details p,
+.summary .emergency .body .details p {
+  font-size: 10px !important;
+  line-height: 5px;
+}
+
+.summary .favourite .body .icon {
+  color: #00b381;
+  background-color: #d0fae5;
+  font-size: 10px;
+}
+
+.summary .favourite .body .contact:hover .icon {
+  color: white;
+  background-color: #00b381;
+}
+
+.summary .emergency .body .icon {
+  background-color: #fef2f2;
+  color: #ff2056;
+  font-size: 10px;
+}
+
+.summary .emergency .body .contact:hover .icon {
+  background-color: #ff2056;
+  color: #fef2f2;
+}
+
+.summary .emergency .body .contact:hover {
+  background-color: #fef2f2;
+}
+
+#home .sticky-sec {
+  position: sticky;
+  top: 20px;
+}
+
+.container,
+.container-fluid,
+.row,
+.content {
+  overflow: visible !important;
+}
+
+.modal-body .iconBtn button {
+  background-color: #e5e7eb;
+  border: none;
+  color: #515350;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.modal-body form label {
+  font-size: 14px;
+  font-weight: 500;
+  color: oklch(0.373 0.034 259.733);
+}
+
+.modal-body form label span {
+  color: red;
+}
+
+.modal-body form input,
+.modal-body form select,
+.modal-body form textarea {
+  background-color: #f9fafb;
+}
+
+.modal .btn-primary {
+  background-image: linear-gradient(to right, #7a27fd, #5537f7) !important;
+  font-weight: 500;
+}
+
+.modal .btn-secondary {
+  background-color: #f7f7f7 !important;
+  color: #515350;
+  font-weight: 500;
+  border: none;
+}
+
+.modal .btn-secondary:hover {
+  background-color: #e5e6e7 !important;
+}
+
+.offStar,
+.offHeart {
+  background-color: transparent;
+  color: #7a7c79;
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  nav h1 {
+    font-size: 26px;
+  }
+
+  nav .nav-buttons,
+  nav .nav-text {
+    display: inline;
+  }
+
+  nav .addBtnLg {
+    display: inline;
+  }
+
+  nav .addBtnsm {
+    display: none;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
