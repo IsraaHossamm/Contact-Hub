@@ -191,7 +191,7 @@ function updatefavAside() {
       data += ` 
     <div class="contact d-flex align-items-center px-1 rounded-3 mb-2">
                       <div class="name rounded-3 d-flex justify-content-center align-items-center me-2">
-                        <span class="">IE</span>
+                        <span class="">${getInitials(contactList[i].contactName)}</span>
                       </div>
                       <div class="details">
                         <h5 class="pt-2">${contactList[i].contactName}</h5>
@@ -417,3 +417,4 @@ function validateName() {
     return false;
   }
 }
+
